@@ -1,0 +1,16 @@
+import React from 'react'
+import Navbar from '../Section1/Navbar'
+import Page1Content from './Page1Content'
+import 'remixicon/fonts/remixicon.css'
+
+const Section1 = (props) => {
+    console.log(props)
+  return (
+    <div className='h-screen w-full'>
+      <Navbar />
+      <Page1Content users={props.users}/>
+    </div>
+  )
+}
+
+export default Section1
