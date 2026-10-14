@@ -1,16 +1,39 @@
-# React + Vite
+# Segments UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple front‑end project that displays customer segmentation cards — Satisfied, Underserved, Underbanked, Prospective, Emerging, and Premium — with clean visuals and smooth layout.
 
-Currently, two official plugins are available:
+## Overview
+This project focuses on creating a neat, responsive UI using Tailwind CSS.  
+Each card represents a customer segment with short descriptions and color‑coded themes for clarity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React (for component structure)
+- Tailwind CSS (for styling)
+- Vite (for fast development setup)
 
-## React Compiler
+## Features
+- Responsive card layout
+- Minimal and modern design
+- Easy to customize colors and text
+- Lightweight and beginner‑friendly
+- **Dynamic input support** – segments and descriptions can be updated from user input instead of being hardcoded
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Folder Structure
+```
+src/
+┣ components/
+┣ assets/
+┣ App.jsx
+┗ main.jsx
+```
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Preview
+The layout includes five cards with segment names and short descriptions, styled in dark gray tones for better readability.
+
+## Author
+**Sankarapu Kavya**  
+Frontend enthusiast • Loves clean UI and simple design.
+
+---
+
